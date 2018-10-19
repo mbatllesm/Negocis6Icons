@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.martiportatil.negocis6icons"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -15,6 +15,22 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+                            'src/main/res/layouts/business',
+                            'src/main/res/layouts/hotels',
+                            'src/main/res/layouts/main',
+                            'src/main/res/layouts/knowledge',
+                            'src/main/res/layouts/movies',
+                            'src/main/res/layouts/restaurants',
+                            'src/main/res/layouts/weather',
+                            'src/main/res/layouts',
+                            'src/main/res'
+                    ]
         }
     }
 }
