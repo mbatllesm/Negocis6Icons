@@ -15,7 +15,6 @@
                 android:layout_height="100dp"
                 android:src="@drawable/business"
                 android:id="@+id/business"/>
-
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
