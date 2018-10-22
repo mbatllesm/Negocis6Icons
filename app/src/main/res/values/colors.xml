@@ -3,11 +3,27 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--Main-->
     <color name="Main">#000000</color>
+
+    <!--Business-->
     <color name="Business">#CD4342</color>
+
+    <!--Restaurants-->
     <color name="Restaurants">#D1512F</color>
+
+    <!--Movies-->
     <color name="Movies">#3B77B5</color>
+
+    <!--Weather-->
     <color name="Weather">#00AEEF</color>
+
+    <!--Hotels-->
     <color name="Hotels">#28C874</color>
+    <color name="BgHotels">#c8f4dd</color>
+
+    <!--Knowledge-->
     <color name="Knowledge">#BF5C96</color>
+
 </resources>
