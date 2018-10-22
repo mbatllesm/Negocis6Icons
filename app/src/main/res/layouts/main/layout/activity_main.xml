@@ -13,39 +13,45 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/business"/>
+                android:src="@drawable/business"
+                android:id="@+id/business"/>
 
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/restaurants"/>
+                android:src="@drawable/restaurants"
+                android:id="@+id/restaurant"/>
         </TableRow>
         <TableRow>
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="25dp"
-                android:src="@drawable/movies"/>
+                android:src="@drawable/movies"
+                android:id="@+id/movies"/>
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/weather"/>
+                android:src="@drawable/weather"
+                android:id="@+id/weather"/>
         </TableRow>
         <TableRow>
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="25dp"
-                android:src="@drawable/hotels"/>
+                android:src="@drawable/hotels"
+                android:id="@+id/hotels"/>
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="15dp"
-                android:src="@drawable/knowledge"/>
+                android:src="@drawable/knowledge"
+                android:id="@+id/knowledge"/>
         </TableRow>
     </TableLayout>
 

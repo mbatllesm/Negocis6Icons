@@ -4,7 +4,43 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/Main</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Business" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Business</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Hotels" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Hotels</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Movies" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Movies</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Weather" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Weather</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Restaurants" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Restaurants</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Knowledge" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Knowledge</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 

@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="Main">#000000</color>
+    <color name="Business">#CD4342</color>
+    <color name="Restaurants">#D1512F</color>
+    <color name="Movies">#3B77B5</color>
+    <color name="Weather">#00AEEF</color>
+    <color name="Hotels">#28C874</color>
+    <color name="Knowledge">#BF5C96</color>
 </resources>

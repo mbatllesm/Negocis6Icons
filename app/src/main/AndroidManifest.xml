@@ -16,8 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Hotels" />
-        <activity android:name=".Business" />
+        <activity android:name=".Hotels"
+            android:theme="@style/Hotles"/>
+        <activity android:name=".Business"
+            android:theme="@style/Business"/>
         <activity android:name=".Knowledge" />
         <activity android:name=".Movies" />
         <activity android:name=".Restaurants" />
