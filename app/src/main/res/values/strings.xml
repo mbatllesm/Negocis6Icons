@@ -4,4 +4,13 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+
+    <string name="hintBuscar">Buscar per nom...</string>
+    <string name="ordenar">Ordenar per:</string>
+    <string name="ordenar_prompt">Filtre</string>
+    <string-array name="ordenar_entries">
+        <item>Alfabètic</item>
+        <item>Estrelles</item>
+    </string-array>
 </resources>
