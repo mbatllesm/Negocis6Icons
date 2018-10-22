@@ -17,13 +17,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".Hotels"
-            android:theme="@style/Hotles"/>
+            android:theme="@style/Hotels"/>
         <activity android:name=".Business"
             android:theme="@style/Business"/>
-        <activity android:name=".Knowledge" />
-        <activity android:name=".Movies" />
-        <activity android:name=".Restaurants" />
-        <activity android:name=".Weather"></activity>
+        <activity android:name=".Knowledge"
+            android:theme="@style/Knowledge"/>
+        <activity android:name=".Movies"
+            android:theme="@style/Movies"/>
+        <activity android:name=".Restaurants"
+            android:theme="@style/Restaurants"/>
+        <activity android:name=".Weather"
+            android:theme="@style/Weather"></activity>
     </application>
 
 </manifest>

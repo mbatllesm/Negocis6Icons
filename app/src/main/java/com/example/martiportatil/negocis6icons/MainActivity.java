@@ -48,7 +48,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         else if (v==b2)
         {
+            Intent intent = new Intent(this,Restaurants.class);
+            startActivity(intent);
+        }
+        else if (v==b3)
+        {
+            Intent intent = new Intent(this,Movies.class);
+            startActivity(intent);
+        }
+        else if (v==b4)
+        {
+            Intent intent = new Intent(this,Weather.class);
+            startActivity(intent);
+        }
+        else if (v==b5)
+        {
             Intent intent = new Intent(this,Hotels.class);
+            startActivity(intent);
+        }
+        else if (v==b6)
+        {
+            Intent intent = new Intent(this,Knowledge.class);
             startActivity(intent);
         }
     }
