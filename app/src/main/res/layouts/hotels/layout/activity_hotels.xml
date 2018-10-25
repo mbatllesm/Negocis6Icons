@@ -11,12 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:background="@color/Hotels">
+        android:background="@color/Hotels"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
         <ImageView
-            android:layout_margin="0dp"
+            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="4"
+            android:layout_weight="3"
             android:src="@drawable/flecha"
             android:id="@+id/back"/>
         <TextView
@@ -46,14 +48,14 @@
             android:layout_height="wrap_content"
             android:text="@string/ordenar"
             android:gravity="center"
-            android:layout_weight="10"/>
+            android:layout_weight="11"/>
         <Spinner
             android:id="@+id/spinnerOrder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:entries="@array/ordenar_entries"
             android:prompt="@array/ordenar_entries"
-            android:layout_weight="10"/>
+            android:layout_weight="9"/>
     </LinearLayout>
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/ScrollView01"
@@ -81,20 +83,59 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hotel de tu puta madre"
+                        android:text="Hotel de ejemplo"
                         android:textSize="@dimen/HotelT"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="asdasd"/>
                 </LinearLayout>
-                <Spinner
-                    android:id="@+id/spinnerRating3"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    />
+                    android:layout_height="@dimen/HotelH"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <Spinner
+                        android:id="@+id/spinnerRating1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom"
+                        android:id="@+id/estrellas1">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/HotelH"
@@ -113,20 +154,59 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hotel de tu puta madre"
+                        android:text="Hotel de ejemplo"
                         android:textSize="@dimen/HotelT"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="asdasd"/>
                 </LinearLayout>
-                <Spinner
-                    android:id="@+id/spinnerRating2"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    />
+                    android:layout_height="@dimen/HotelH"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <Spinner
+                        android:id="@+id/spinnerRating2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom"
+                        android:id="@+id/estrellas2">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/HotelH"
@@ -145,20 +225,59 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hotel de tu puta madre"
+                        android:text="Hotel de ejemplo"
                         android:textSize="@dimen/HotelT"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="asdasd"/>
                 </LinearLayout>
-                <Spinner
-                    android:id="@+id/spinnerRating4"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    />
+                    android:layout_height="@dimen/HotelH"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <Spinner
+                        android:id="@+id/spinnerRating3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom"
+                        android:id="@+id/estrellas3">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/HotelH"
@@ -177,20 +296,59 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hotel de tu puta madre"
+                        android:text="Hotel de ejemplo"
                         android:textSize="@dimen/HotelT"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="asdasd"/>
                 </LinearLayout>
-                <Spinner
-                    android:id="@+id/spinnerRating5"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    />
+                    android:layout_height="@dimen/HotelH"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <Spinner
+                        android:id="@+id/spinnerRating4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom"
+                        android:id="@+id/estrellas4">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/HotelH"
@@ -209,20 +367,59 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hotel de tu puta madre"
+                        android:text="Hotel de ejemplo"
                         android:textSize="@dimen/HotelT"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="asdasd"/>
                 </LinearLayout>
-                <Spinner
-                    android:id="@+id/spinnerRating6"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    />
+                    android:layout_height="@dimen/HotelH"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <Spinner
+                        android:id="@+id/spinnerRating5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom"
+                        android:id="@+id/estrellas5">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/HotelH"
@@ -241,20 +438,59 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hotel de tu puta madre"
+                        android:text="Hotel de ejemplo"
                         android:textSize="@dimen/HotelT"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="asdasd"/>
                 </LinearLayout>
-                <Spinner
-                    android:id="@+id/spinnerRating7"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    />
+                    android:layout_height="@dimen/HotelH"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <Spinner
+                        android:id="@+id/spinnerRating6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom"
+                        android:id="@+id/estrellas6">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/HotelH"
@@ -273,19 +509,270 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hotel de tu puta madre"
+                        android:text="Hotel de ejemplo"
                         android:textSize="@dimen/HotelT"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="asdasd"/>
                 </LinearLayout>
-                <Spinner
-                    android:id="@+id/spinnerRating8"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    />
+                    android:layout_height="@dimen/HotelH"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <Spinner
+                        android:id="@+id/spinnerRating7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom"
+                        android:id="@+id/estrellas7">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/HotelH"
+                android:gravity="end"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/fondaeuropa"
+                    android:layout_weight="9"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hotel de ejemplo"
+                        android:textSize="@dimen/HotelT"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="asdasd"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/HotelH"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <Spinner
+                        android:id="@+id/spinnerRating8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom"
+                        android:id="@+id/estrellas8">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/HotelH"
+                android:gravity="end"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/fondaeuropa"
+                    android:layout_weight="9"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hotel de ejemplo"
+                        android:textSize="@dimen/HotelT"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="asdasd"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/HotelH"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <Spinner
+                        android:id="@+id/spinnerRating9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom"
+                        android:id="@+id/estrellas9">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/HotelH"
+                android:gravity="end"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/fondaeuropa"
+                    android:layout_weight="9"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hotel de ejemplo"
+                        android:textSize="@dimen/HotelT"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="asdasd"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/HotelH"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <Spinner
+                        android:id="@+id/spinnerRating10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom"
+                        android:id="@+id/estrellas10">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/estrella"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
