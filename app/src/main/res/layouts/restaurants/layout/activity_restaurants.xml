@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Restaurants.Restaurants">
+    tools:context=".Restaurants">
 
 </android.support.constraint.ConstraintLayout>

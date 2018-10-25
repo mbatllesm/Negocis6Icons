@@ -9,24 +9,24 @@
         android:roundIcon="@drawable/icono"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Hotels.Hotels"
+        <activity android:name=".Hotels"
             android:theme="@style/Hotels"/>
-        <activity android:name=".Business.Business"
+        <activity android:name=".Business"
             android:theme="@style/Business"/>
-        <activity android:name=".Knowledge.Knowledge"
+        <activity android:name=".Knowledge"
             android:theme="@style/Knowledge"/>
-        <activity android:name=".Movies.Movies"
+        <activity android:name=".Movies"
             android:theme="@style/Movies"/>
-        <activity android:name=".Restaurants.Restaurants"
+        <activity android:name=".Restaurants"
             android:theme="@style/Restaurants"/>
-        <activity android:name=".Weather.Weather"
+        <activity android:name=".Weather"
             android:theme="@style/Weather"></activity>
     </application>
 

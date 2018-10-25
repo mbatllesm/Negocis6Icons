@@ -1,4 +1,4 @@
-package com.example.martiportatil.negocis6icons.Knowledge;
+package com.example.martiportatil.negocis6icons;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
