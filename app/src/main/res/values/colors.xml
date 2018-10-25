@@ -9,6 +9,7 @@
 
     <!--Business-->
     <color name="Business">#CD4342</color>
+    <color name="BusinessBackGround">#efb8b7</color>
 
     <!--Restaurants-->
     <color name="Restaurants">#D1512F</color>
