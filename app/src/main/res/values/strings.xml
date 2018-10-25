@@ -1,8 +1,13 @@
 <resources>
-    <string name="app_name">Granollers Gran Centre</string>
+    <!--Business-->
     <string name="title_activity_business">Business</string>
+    <string name="AG">Autoescola Granollers</string>
+    <!--Hotels-->
     <string name="title_activity_hotel">Hotels</string>
+    <!--Restaurants-->
     <string name="title_activity_restaurants">Restaurants</string>
+    <!--General-->
+    <string name="app_name">Granollers Gran Centre</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
