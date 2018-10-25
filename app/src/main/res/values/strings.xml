@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Granollers Gran Centre</string>
     <string name="title_activity_business">Business</string>
+    <string name="title_activity_hotel">Hotels</string>
+    <string name="title_activity_restaurants">Restaurants</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-
-
     <string name="hintBuscar">Buscar per nom...</string>
     <string name="ordenar">Ordenar per:</string>
     <string name="ordenar_prompt">Filtre</string>
