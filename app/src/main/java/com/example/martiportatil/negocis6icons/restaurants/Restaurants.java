@@ -1,16 +1,16 @@
-package com.example.martiportatil.negocis6icons;
+package com.example.martiportatil.negocis6icons.restaurants;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.martiportatil.negocis6icons.R;
 
-public class Hotels extends AppCompatActivity {
+public class Restaurants extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         this.getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hotels);
+        setContentView(R.layout.activity_restaurants);
     }
 }

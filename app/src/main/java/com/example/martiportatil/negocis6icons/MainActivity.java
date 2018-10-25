@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.martiportatil.negocis6icons.R;
+import com.example.martiportatil.negocis6icons.bussines.Business;
+import com.example.martiportatil.negocis6icons.hotels.Hotels;
+import com.example.martiportatil.negocis6icons.restaurants.Restaurants;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 

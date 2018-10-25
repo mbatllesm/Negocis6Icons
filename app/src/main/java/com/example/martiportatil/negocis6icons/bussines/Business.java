@@ -1,4 +1,4 @@
-package com.example.martiportatil.negocis6icons;
+package com.example.martiportatil.negocis6icons.bussines;
 
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
