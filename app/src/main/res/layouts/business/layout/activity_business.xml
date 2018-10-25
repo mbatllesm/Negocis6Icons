@@ -5,10 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/BusinessBackGround"
-    tools:context=".bussines.Business">
+    tools:context=".bussines.Business"
+    android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         android:orientation="horizontal"
         android:background="@color/Business">
         <ImageView
@@ -29,4 +33,31 @@
             android:textColor="@color/Main"
             android:text="@string/title_activity_business"/>
     </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:hint="@string/hintBuscar"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="11"
+                android:textColor="@color/Main"
+                android:text="@string/ordenar"/>
+            <Spinner
+                android:id="@+id/spinnerOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:entries="@array/ordenar_entries"
+                android:prompt="@array/ordenar_entries"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
