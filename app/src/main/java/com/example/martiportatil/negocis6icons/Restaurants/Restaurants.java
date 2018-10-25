@@ -1,7 +1,9 @@
-package com.example.martiportatil.negocis6icons;
+package com.example.martiportatil.negocis6icons.Restaurants;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.martiportatil.negocis6icons.R;
 
 public class Restaurants extends AppCompatActivity {
 

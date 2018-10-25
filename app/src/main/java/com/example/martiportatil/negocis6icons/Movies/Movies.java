@@ -1,7 +1,9 @@
-package com.example.martiportatil.negocis6icons;
+package com.example.martiportatil.negocis6icons.Movies;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.martiportatil.negocis6icons.R;
 
 public class Movies extends AppCompatActivity {
 

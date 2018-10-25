@@ -1,14 +1,18 @@
-package com.example.martiportatil.negocis6icons;
+package com.example.martiportatil.negocis6icons.Main;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
+
+import com.example.martiportatil.negocis6icons.Business.Business;
+import com.example.martiportatil.negocis6icons.Hotels.Hotels;
+import com.example.martiportatil.negocis6icons.Knowledge.Knowledge;
+import com.example.martiportatil.negocis6icons.Movies.Movies;
+import com.example.martiportatil.negocis6icons.R;
+import com.example.martiportatil.negocis6icons.Restaurants.Restaurants;
+import com.example.martiportatil.negocis6icons.Weather.Weather;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
