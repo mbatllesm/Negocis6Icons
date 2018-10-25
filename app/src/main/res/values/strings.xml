@@ -2,6 +2,8 @@
     <!--Business-->
     <string name="title_activity_business">Business</string>
     <string name="AG">Autoescola Granollers</string>
+    <string name="GO">General Optica</string>
+    <string name="LG">La Gralla</string>
     <!--Hotels-->
     <string name="title_activity_hotel">Hotels</string>
     <!--Restaurants-->
