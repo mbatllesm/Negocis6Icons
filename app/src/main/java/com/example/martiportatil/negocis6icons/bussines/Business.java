@@ -82,18 +82,18 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
         {
             Lgralla.setVisibility(View.VISIBLE);
             Lgerneral_optica.setVisibility(View.INVISIBLE);
+            params = Lgerneral_optica.getLayoutParams();
+            params.height=0;
+            Lgerneral_optica.setLayoutParams(params);
             Lautoescola_granollers.setVisibility(View.INVISIBLE);
+            params = Lautoescola_granollers.getLayoutParams();
+            params.height=0;
+            Lautoescola_granollers.setLayoutParams(params);
         }else
         {
             Lgralla.setVisibility(View.VISIBLE);
             Lgerneral_optica.setVisibility(View.VISIBLE);
-            params = Lgerneral_optica.getLayoutParams();
-            params.height=0;
-            Lgerneral_optica.setLayoutParams(params);
             Lautoescola_granollers.setVisibility(View.VISIBLE);
-            params = Lautoescola_granollers.getLayoutParams();
-            params.height=0;
-            Lautoescola_granollers.setLayoutParams(params);
         }
     }
     @Override
