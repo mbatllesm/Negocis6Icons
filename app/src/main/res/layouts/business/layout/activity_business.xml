@@ -111,7 +111,9 @@
                 android:layout_marginHorizontal="@dimen/BarresBussines"
                 android:background="@color/LineB">
             </LinearLayout>
+
             <LinearLayout
+
                 android:id="@+id/layout_autoescola_granollers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -125,10 +127,10 @@
                     android:src="@drawable/autoescola_granollers" />
 
                 <TextView
+                    android:id="@+id/text_autoescola_granollers"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:id="@+id/text_autoescola_granollers"
                     android:text="@string/AG"
                     android:textAlignment="center"
                     android:textColor="@color/Main"

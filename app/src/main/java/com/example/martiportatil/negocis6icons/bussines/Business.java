@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.text.Layout;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -53,17 +54,30 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
         });
     }
     private void Buscador() {
+        ViewGroup.LayoutParams params;
         textsearch = buscar.getText().toString();
         if (textsearch.equalsIgnoreCase(Tgerneral_optica.getText().toString()))
         {
             Lgerneral_optica.setVisibility(View.VISIBLE);
             Lautoescola_granollers.setVisibility(View.INVISIBLE);
+            params = Lautoescola_granollers.getLayoutParams();
+            params.height=0;
+            Lautoescola_granollers.setLayoutParams(params);
             Lgralla.setVisibility(View.INVISIBLE);
+            params = Lgralla.getLayoutParams();
+            params.height=0;
+            Lgralla.setLayoutParams(params);
         }else if (textsearch.equalsIgnoreCase(Tautoescola_granollers.getText().toString()))
         {
             Lautoescola_granollers.setVisibility(View.VISIBLE);
             Lgralla.setVisibility(View.INVISIBLE);
+            params = Lgralla.getLayoutParams();
+            params.height=0;
+            Lgralla.setLayoutParams(params);
             Lgerneral_optica.setVisibility(View.INVISIBLE);
+            params = Lgerneral_optica.getLayoutParams();
+            params.height=0;
+            Lgerneral_optica.setLayoutParams(params);
         }else if (textsearch.equalsIgnoreCase(Tgralla.getText().toString()))
         {
             Lgralla.setVisibility(View.VISIBLE);
@@ -73,7 +87,13 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
         {
             Lgralla.setVisibility(View.VISIBLE);
             Lgerneral_optica.setVisibility(View.VISIBLE);
+            params = Lgerneral_optica.getLayoutParams();
+            params.height=0;
+            Lgerneral_optica.setLayoutParams(params);
             Lautoescola_granollers.setVisibility(View.VISIBLE);
+            params = Lautoescola_granollers.getLayoutParams();
+            params.height=0;
+            Lautoescola_granollers.setLayoutParams(params);
         }
     }
     @Override
