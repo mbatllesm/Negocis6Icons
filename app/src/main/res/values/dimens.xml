@@ -5,4 +5,5 @@
     <dimen name="HotelH">100dp</dimen>
     <dimen name="HotelT">20sp</dimen>
     <dimen name="BarresBussines">50dp</dimen>
+    <dimen name="BarresBussines2">30dp</dimen>
 </resources>
