@@ -20,6 +20,9 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
     private LinearLayout Lgralla;
     private LinearLayout Lautoescola_granollers;
     private LinearLayout Lgerneral_optica;
+    private LinearLayout Barra1;
+    private LinearLayout Barra2;
+    private LinearLayout Barra3;
     private TextView Tgralla;
     private TextView Tautoescola_granollers;
     private TextView Tgerneral_optica;
@@ -33,6 +36,9 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
         setContentView(R.layout.activity_business);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         b1 = findViewById(R.id.back);
+        Barra1 = findViewById(R.id.linea2);
+        Barra2 = findViewById(R.id.linea3);
+        Barra3 = findViewById(R.id.linea4);
         Lgralla = findViewById(R.id.layout_la_gralla);
         Lautoescola_granollers = findViewById(R.id.layout_autoescola_granollers);
         Lgerneral_optica = findViewById(R.id.layout_general_optica);
@@ -59,6 +65,12 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
         if (textsearch.equalsIgnoreCase(Tgerneral_optica.getText().toString()))
         {
             Lgerneral_optica.setVisibility(View.VISIBLE);
+            params = Lgerneral_optica.getLayoutParams();
+            params.height= ViewGroup.LayoutParams.WRAP_CONTENT;
+            Lgerneral_optica.setLayoutParams(params);
+            Barra1.setVisibility(View.INVISIBLE);
+            Barra2.setVisibility(View.INVISIBLE);
+            Barra3.setVisibility(View.VISIBLE);
             Lautoescola_granollers.setVisibility(View.INVISIBLE);
             params = Lautoescola_granollers.getLayoutParams();
             params.height=0;
@@ -70,6 +82,12 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
         }else if (textsearch.equalsIgnoreCase(Tautoescola_granollers.getText().toString()))
         {
             Lautoescola_granollers.setVisibility(View.VISIBLE);
+            params = Lautoescola_granollers.getLayoutParams();
+            params.height= ViewGroup.LayoutParams.WRAP_CONTENT;
+            Lautoescola_granollers.setLayoutParams(params);
+            Barra1.setVisibility(View.INVISIBLE);
+            Barra2.setVisibility(View.VISIBLE);
+            Barra3.setVisibility(View.INVISIBLE);
             Lgralla.setVisibility(View.INVISIBLE);
             params = Lgralla.getLayoutParams();
             params.height=0;
@@ -81,6 +99,12 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
         }else if (textsearch.equalsIgnoreCase(Tgralla.getText().toString()))
         {
             Lgralla.setVisibility(View.VISIBLE);
+            params = Lgralla.getLayoutParams();
+            params.height= ViewGroup.LayoutParams.WRAP_CONTENT;
+            Lgralla.setLayoutParams(params);
+            Barra1.setVisibility(View.VISIBLE);
+            Barra2.setVisibility(View.INVISIBLE);
+            Barra3.setVisibility(View.INVISIBLE);
             Lgerneral_optica.setVisibility(View.INVISIBLE);
             params = Lgerneral_optica.getLayoutParams();
             params.height=0;
@@ -91,7 +115,19 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
             Lautoescola_granollers.setLayoutParams(params);
         }else
         {
+            Barra1.setVisibility(View.VISIBLE);
+            Barra2.setVisibility(View.VISIBLE);
+            Barra3.setVisibility(View.VISIBLE);
+            params = Lgerneral_optica.getLayoutParams();
+            params.height= ViewGroup.LayoutParams.WRAP_CONTENT;
+            Lgerneral_optica.setLayoutParams(params);
+            params = Lautoescola_granollers.getLayoutParams();
+            params.height= ViewGroup.LayoutParams.WRAP_CONTENT;
+            Lautoescola_granollers.setLayoutParams(params);
             Lgralla.setVisibility(View.VISIBLE);
+            params = Lgralla.getLayoutParams();
+            params.height= ViewGroup.LayoutParams.WRAP_CONTENT;
+            Lgralla.setLayoutParams(params);
             Lgerneral_optica.setVisibility(View.VISIBLE);
             Lautoescola_granollers.setVisibility(View.VISIBLE);
         }

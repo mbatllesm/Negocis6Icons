@@ -108,6 +108,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:id="@+id/linea2"
                 android:layout_marginHorizontal="@dimen/BarresBussines"
                 android:background="@color/LineB">
             </LinearLayout>
@@ -138,6 +139,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_marginHorizontal="@dimen/BarresBussines"
+                android:id="@+id/linea3"
                 android:layout_height="1dp"
                 android:background="@color/LineB">
             </LinearLayout>
@@ -165,6 +167,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:id="@+id/linea4"
                 android:layout_marginHorizontal="@dimen/BarresBussines"
                 android:background="@color/LineB">
             </LinearLayout>
