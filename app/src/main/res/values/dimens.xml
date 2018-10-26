@@ -4,4 +4,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="HotelH">100dp</dimen>
     <dimen name="HotelT">20sp</dimen>
+    <dimen name="BarresBussines">50dp</dimen>
 </resources>
