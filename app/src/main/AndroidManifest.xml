@@ -16,18 +16,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".hotels.Hotels"
-            android:theme="@style/Hotels"/>
-        <activity android:name=".bussines.Business"
-            android:theme="@style/Business"/>
-        <activity android:name=".Knowledge"
-            android:theme="@style/Knowledge"/>
-        <activity android:name=".Movies"
-            android:theme="@style/Movies"/>
-        <activity android:name=".restaurants.Restaurants"
-            android:theme="@style/Restaurants"/>
-        <activity android:name=".Weather"
-            android:theme="@style/Weather"></activity>
+        <activity
+            android:name=".hotels.Hotels"
+            android:theme="@style/Hotels" />
+        <activity
+            android:name=".bussines.Business"
+            android:theme="@style/Business" />
+        <activity
+            android:name=".Knowledge"
+            android:theme="@style/Knowledge" />
+        <activity
+            android:name=".Movies"
+            android:theme="@style/Movies" />
+        <activity
+            android:name=".restaurants.Restaurants"
+            android:theme="@style/Restaurants" />
+        <activity
+            android:name=".Weather"
+            android:theme="@style/Weather" />
+        <activity android:name=".empreses"></activity>
     </application>
 
 </manifest>

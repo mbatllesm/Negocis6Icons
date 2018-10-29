@@ -45,6 +45,9 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
         Tgralla = findViewById(R.id.text_la_gralla);
         Tautoescola_granollers = findViewById(R.id.text_autoescola_granollers);
         Tgerneral_optica = findViewById(R.id.text_general_optica);
+        Lautoescola_granollers.setOnClickListener(this);
+        Lgralla.setOnClickListener(this);
+        Lgerneral_optica.setOnClickListener(this);
         b1.setOnClickListener(this);
         titole = findViewById(R.id.titol);
         buscar = findViewById(R.id.search);
@@ -135,6 +138,19 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
     @Override
     public void onClick(View v) {
         if (v==b1)
+        {
+            Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
+        }
+        else if (v==Lgralla)
+        {
+            Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
+        }else if(v==Lgerneral_optica)
+        {
+            Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
+        }else if(v==Lautoescola_granollers)
         {
             Intent intent = new Intent(this,MainActivity.class);
             startActivity(intent);
