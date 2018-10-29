@@ -20,7 +20,10 @@
             android:name=".hotels.Hotels"
             android:theme="@style/Hotels" />
         <activity
-            android:name=".bussines.Business"
+        android:name=".bussines.Business"
+        android:theme="@style/Business" />
+        <activity
+            android:name=".empreses"
             android:theme="@style/Business" />
         <activity
             android:name=".Knowledge"
