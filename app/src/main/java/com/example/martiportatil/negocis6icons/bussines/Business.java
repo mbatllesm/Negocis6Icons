@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.example.martiportatil.negocis6icons.MainActivity;
 import com.example.martiportatil.negocis6icons.R;
+import com.example.martiportatil.negocis6icons.empreses;
 
 public class Business extends AppCompatActivity implements View.OnClickListener {
     private ImageView b1;
@@ -144,15 +145,19 @@ public class Business extends AppCompatActivity implements View.OnClickListener 
         }
         else if (v==Lgralla)
         {
-            Intent intent = new Intent(this,MainActivity.class);
+
+            Intent intent = new Intent(this,empreses.class);
+            intent.putExtra("empresa",Tgralla.getText());
             startActivity(intent);
         }else if(v==Lgerneral_optica)
         {
-            Intent intent = new Intent(this,MainActivity.class);
+            Intent intent = new Intent(this,empreses.class);
+            intent.putExtra("empresa",Tgerneral_optica.getText());
             startActivity(intent);
         }else if(v==Lautoescola_granollers)
         {
-            Intent intent = new Intent(this,MainActivity.class);
+            Intent intent = new Intent(this,empreses.class);
+            intent.putExtra("empresa",Tautoescola_granollers.getText());
             startActivity(intent);
         }
     }
