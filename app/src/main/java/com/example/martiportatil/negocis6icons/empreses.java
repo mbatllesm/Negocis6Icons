@@ -15,5 +15,9 @@ public class empreses extends AppCompatActivity {
         setContentView(R.layout.activity_empreses);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         image = findViewById(R.id.img);
+        if (empresa1 == "")
+        {
+
+        }
     }
 }
