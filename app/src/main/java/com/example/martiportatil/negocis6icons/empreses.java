@@ -15,9 +15,18 @@ public class empreses extends AppCompatActivity {
         setContentView(R.layout.activity_empreses);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         image = findViewById(R.id.img);
-        if (empresa1 == "")
+        if (empresa1 == "La Gralla")
         {
-
+            image.setImageResource(R.drawable.la_gralla);
+            setContentView(image);
+        }else if(empresa1 == "General Optica")
+        {
+            image.setImageResource(R.drawable.general_optica);
+            setContentView(image);
+        }else if(empresa1 == "Autoescola Granollers")
+        {
+            image.setImageResource(R.drawable.autoescola_granollers);
+            setContentView(image);
         }
     }
 }
