@@ -8,6 +8,9 @@
     <string name="title_activity_hotel">Hotels</string>
     <!--Restaurants-->
     <string name="title_activity_restaurants">Restaurants</string>
+        <!--  -->
+        <!--  -->
+    <!--Restaurants-->
     <!--General-->
     <string name="app_name">Granollers Gran Centre</string>
     <string name="title_home">Home</string>
@@ -20,4 +23,5 @@
         <item>Alfabètic</item>
         <item>Estrelles</item>
     </string-array>
+
 </resources>

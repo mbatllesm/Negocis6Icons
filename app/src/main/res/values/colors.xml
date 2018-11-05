@@ -13,7 +13,8 @@
     <color name="LineB">#a9a9a9</color>
 
     <!--Restaurants-->
-    <color name="Restaurants">#D1512F</color>
+    <color name="Restaurants">#fd7d27</color>
+    <color name="BgRestaurants">#ff8533</color>
 
     <!--Movies-->
     <color name="Movies">#3B77B5</color>
@@ -27,5 +28,7 @@
 
     <!--Knowledge-->
     <color name="Knowledge">#BF5C96</color>
+
+
 
 </resources>
