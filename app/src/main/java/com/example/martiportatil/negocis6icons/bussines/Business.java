@@ -1,26 +1,17 @@
 package com.example.martiportatil.negocis6icons.bussines;
 
-import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Layout;
-import android.view.KeyEvent;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.martiportatil.negocis6icons.MainActivity;
 import com.example.martiportatil.negocis6icons.R;
-import com.example.martiportatil.negocis6icons.empreses;
 
-import static android.view.View.*;
+import static android.view.View.OnClickListener;
 
 public class Business extends AppCompatActivity implements OnClickListener {
     private ImageView b1;
@@ -58,9 +49,19 @@ public class Business extends AppCompatActivity implements OnClickListener {
                     iopc3.setImageResource(R.drawable.optica_granollers);
                     topc3.setText("Optica Universitaria de Granollers");
                 }else if(id==2){
-
+                    iopc1.setImageResource(R.drawable.la_gralla);
+                    topc1.setText("La Gralla");
+                    iopc2.setImageResource(R.drawable.abacus);
+                    topc2.setText("Abacus");
+                    iopc3.setImageResource(R.drawable.carbo);
+                    topc3.setText("Carbó");
                 }else if(id==3){
-
+                    iopc1.setImageResource(R.drawable.general_optica);
+                    topc1.setText("General Optica");
+                    iopc2.setImageResource(R.drawable.mutiopticas);
+                    topc2.setText("Multiopticas");
+                    iopc3.setImageResource(R.drawable.optica_granollers);
+                    topc3.setText("Optica Universitaria de Granollers");
                 }
             }
             @Override
