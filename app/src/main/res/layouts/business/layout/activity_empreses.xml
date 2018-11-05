@@ -69,14 +69,24 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/descrip"/>
+            android:id="@+id/descrip"
+            android:textColor="@color/Main"
+            android:textSize="@dimen/HotelT"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/address"/>
+            android:id="@+id/address"
+            android:textColor="@color/Main"
+            android:textSize="@dimen/HotelT"
+            android:layout_marginTop="20dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/telef"/>
+            android:id="@+id/telef"
+            android:textAlignment="center"
+            android:textColor="@color/Main"
+            android:textSize="@dimen/HotelT"
+            android:layout_marginTop="40dp"
+            android:onClick="onClickLlamada"/>
     </LinearLayout>
 </LinearLayout>
