@@ -7,7 +7,7 @@
     <string-array name="business_options">
         <item>Optiques</item>
         <item>Llibreria</item>
-        <item>AutoEscola</item>
+        <item>Jugueteria</item>
     </string-array>
     <!--Hotels-->
     <string name="title_activity_hotel">Hotels</string>

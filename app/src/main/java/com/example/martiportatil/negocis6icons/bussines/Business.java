@@ -56,12 +56,12 @@ public class Business extends AppCompatActivity implements OnClickListener {
                     iopc3.setImageResource(R.drawable.carbo);
                     topc3.setText("Carbó");
                 }else if(id==3){
-                    iopc1.setImageResource(R.drawable.general_optica);
-                    topc1.setText("General Optica");
-                    iopc2.setImageResource(R.drawable.mutiopticas);
-                    topc2.setText("Multiopticas");
-                    iopc3.setImageResource(R.drawable.optica_granollers);
-                    topc3.setText("Optica Universitaria de Granollers");
+                    iopc1.setImageResource(R.drawable.juguettos);
+                    topc1.setText("Juguettos");
+                    iopc2.setImageResource(R.drawable.quediver);
+                    topc2.setText("Quediver");
+                    iopc3.setImageResource(R.drawable.homoludicus);
+                    topc3.setText("Homoludicus");
                 }
             }
             @Override
