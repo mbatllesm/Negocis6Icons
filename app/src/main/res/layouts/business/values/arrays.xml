@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="RestaurantsType">
+        <item></item>
+        <item>Vegetaria</item>
+        <item>Italia</item>
+        <item>Mediterrania</item>
+    </string-array>
+    <string-array name="bohemian">
+        <item>ESTRENO Miércoles 31 de octubre del 2018</item>
+        <item>GÉNERO Biográfico, Drama</item>
+        <item>DURACIÓN 134 min.</item>
+        <item>CLASIFICACIÓN 12 años</item>
+        <item>DIRECTOR Bryan Singer</item>
+    </string-array>
+    <string-array name="nota">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>
