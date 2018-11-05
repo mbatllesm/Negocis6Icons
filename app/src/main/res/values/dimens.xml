@@ -6,6 +6,8 @@
     <dimen name="HotelT">20sp</dimen>
     <dimen name="restaurantH">100dp</dimen>
     <dimen name="restaurantT">18dp</dimen>
+    <dimen name="MoviesH">100dp</dimen>
+    <dimen name="MoviesT">18dp</dimen>
     <dimen name="restaurantNom">13dp</dimen>
     <dimen name="restaurantCarrer">10dp</dimen>
     <dimen name="restaurantDescrip">10dp</dimen>
