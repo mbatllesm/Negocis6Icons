@@ -14,13 +14,154 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/MoviesH"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="9"
+                    android:src="@drawable/bohemian" />
+
+                <LinearLayout
+                    android:layout_width="282dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Bohemian Rapsody"
+                        android:textSize="@dimen/MoviesT" />
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ESTRENO Miércoles 31 de octubre del 2018
+GÉNERO Biográfico, Drama
+DURACIÓN 134 min.
+CLASIFICACIÓN 12 años
+DIRECTOR Bryan Singer"
+                            android:textSize="@dimen/MoviesT2" />
+
+                    </ScrollView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="9"
+                    android:src="@drawable/christopher" />
+
+                <LinearLayout
+                    android:layout_width="282dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Christopher Robin"
+                        android:textSize="@dimen/MoviesT" />
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ESTRENO Viernes 5 de octubre del 2018
+GÉNERO Aventuras
+DURACIÓN 134 min.
+CLASIFICACIÓN Apta
+DIRECTOR Marc Foster"
+                            android:textSize="@dimen/MoviesT2" />
+
+                    </ScrollView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="9"
+                    android:src="@drawable/arbolSangre" />
+
+                <LinearLayout
+                    android:layout_width="282dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="El Árbol de la Sangre"
+                        android:textSize="@dimen/MoviesT" />
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ESTRENO Miércoles 31 de octubre del 2018
+GÉNERO Drama
+DURACIÓN 134 min.
+CLASIFICACIÓN 16 años
+DIRECTOR Julio Médem"
+                            android:textSize="@dimen/MoviesT2" />
+
+                    </ScrollView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="end"
             android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="150dp"
-                android:src="@drawable/canforquilla"
-                android:layout_weight="9"/>
+                android:layout_weight="9"
+                android:src="@drawable/cascanueces" />
 
             <LinearLayout
                 android:layout_width="282dp"
@@ -29,23 +170,82 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/canforquilla"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:text="Can Forquilla"
+                    android:text="El Cascanueces y los Cuatro Reinos"
                     android:textSize="@dimen/MoviesT" />
 
                 <ScrollView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                </ScrollView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ESTRENO Miércoles 31 de octubre del 2018
+GÉNERO Fantástico
+DURACIÓN 96 min.
+CLASIFICACIÓN Apta
+DIRECTOR Lasse Hallström, Joe Johnston"
+                        android:textSize="@dimen/MoviesT2" />
 
+                </ScrollView>
 
 
             </LinearLayout>
         </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="9"
+                    android:src="@drawable/escuela" />
+
+                <LinearLayout
+                    android:layout_width="282dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Escuela para Fracasados"
+                        android:textSize="@dimen/MoviesT" />
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ESTRENO Viernes 19 de octubre del 2018
+GÉNERO Comedia
+DURACIÓN 111 min.
+CLASIFICACIÓN 12 años
+DIRECTOR Malcolm D. Lee"
+                            android:textSize="@dimen/MoviesT2" />
+
+                    </ScrollView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
 
     </ScrollView>
 
