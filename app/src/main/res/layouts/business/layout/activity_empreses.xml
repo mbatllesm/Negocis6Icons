@@ -51,7 +51,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="5dp"
-            android:id="@+id/img"/>
+            android:id="@+id/img"
+            android:onClick="pweb"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -87,6 +88,6 @@
             android:textColor="@color/Main"
             android:textSize="@dimen/HotelT"
             android:layout_marginTop="40dp"
-            android:onClick="onClickLlamada"/>
+        />
     </LinearLayout>
 </LinearLayout>

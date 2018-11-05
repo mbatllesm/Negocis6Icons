@@ -49,13 +49,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:layout_weight="8"
-                android:hint="@string/hintBuscar"
-                android:background="@null"
-                android:id="@+id/search"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -67,8 +60,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="9"
-                android:entries="@array/ordenar_entries"
-                android:prompt="@array/ordenar_entries"/>
+                android:entries="@array/business_options"
+                android:prompt="@array/business_options"/>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -87,12 +80,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/layout_la_gralla">
+                android:id="@+id/opcio1">
                 <ImageView
                     android:layout_margin="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/la_gralla"
+                    android:id="@+id/iopcio1"
                     android:background="#000000"
                     android:padding="1dp"/>
                 <TextView
@@ -102,7 +96,7 @@
                     android:layout_marginTop="40dp"
                     android:textSize="30sp"
                     android:textColor="@color/Main"
-                    android:id="@+id/text_la_gralla"
+                    android:id="@+id/topcio1"
                     android:text="@string/LG"/>
             </LinearLayout>
             <LinearLayout
@@ -110,11 +104,12 @@
                 android:layout_height="1dp"
                 android:id="@+id/linea2"
                 android:layout_marginHorizontal="@dimen/BarresBussines"
-                android:background="@color/LineB">
+                android:background="@color/LineB"
+                android:orientation="horizontal">
             </LinearLayout>
             <LinearLayout
 
-                android:id="@+id/layout_autoescola_granollers"
+                android:id="@+id/opcio2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -124,10 +119,11 @@
                     android:layout_margin="10dp"
                     android:background="#000000"
                     android:padding="1dp"
+                    android:id="@+id/iopcio2"
                     android:src="@drawable/autoescola_granollers" />
 
                 <TextView
-                    android:id="@+id/text_autoescola_granollers"
+                    android:id="@+id/topcio2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -141,18 +137,20 @@
                 android:layout_marginHorizontal="@dimen/BarresBussines"
                 android:id="@+id/linea3"
                 android:layout_height="1dp"
-                android:background="@color/LineB">
+                android:background="@color/LineB"
+                android:orientation="horizontal">
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/layout_general_optica">
+                android:id="@+id/opcio3">
                 <ImageView
                     android:layout_margin="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/general_optica"
                     android:background="#000000"
+                    android:id="@+id/iopcio3"
                     android:padding="1dp"/>
                 <TextView
                     android:layout_width="match_parent"
@@ -161,7 +159,7 @@
                     android:layout_marginTop="40dp"
                     android:textSize="30sp"
                     android:textColor="@color/Main"
-                    android:id="@+id/text_general_optica"
+                    android:id="@+id/topcio3"
                     android:text="@string/GO"/>
             </LinearLayout>
             <LinearLayout
@@ -169,7 +167,8 @@
                 android:layout_height="1dp"
                 android:id="@+id/linea4"
                 android:layout_marginHorizontal="@dimen/BarresBussines"
-                android:background="@color/LineB">
+                android:background="@color/LineB"
+                android:orientation="horizontal">
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
