@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.martiportatil.negocis6icons.bussines.Business;
 
@@ -68,10 +69,9 @@ public class empreses extends AppCompatActivity implements View.OnClickListener{
             Intent intent = new Intent(this,Business.class);
             startActivity(intent);
     }
-    public void onClickLlamada(View v){
-        if (ContextCompat.checkSelfPermission(this,Manifest.permission.WRITE_CALENDAR)!= PackageManager.PERMISSION_GRANTED)
+    /*public void onClickLlamada(View v){
+        if (CheckPermissions()==true)
         {
-        }else{
             Intent i = new Intent(Intent.ACTION_CALL);
             if (nom.equalsIgnoreCase("La Gralla")) {
                 i.setData(Uri.parse("tel.938794970"));
@@ -84,5 +84,27 @@ public class empreses extends AppCompatActivity implements View.OnClickListener{
                 startActivity(i);
             }
         }
+    }*/
+    private boolean CheckPermissions(){
+        int result = ContextCompat.checkSelfPermission(this,Manifest.permission.CALL_PHONE);
+        if (result == PackageManager.PERMISSION_GRANTED)
+        {
+            return true;
+        }else{
+        return false;
+        }
+    }
+    public void pweb(View v)
+    {
+        Uri uriUrl = null;
+        if (nom.equalsIgnoreCase("La Gralla")) {
+            uriUrl = Uri.parse("https://www.llibrerialagralla.cat/");
+        }else if (nom.equalsIgnoreCase("General Optica")) {
+            uriUrl = Uri.parse("https://www.generaloptica.es/es/");
+        }else if (nom.equalsIgnoreCase("Autoescola Granollers")) {
+            uriUrl = Uri.parse("http://www.autoescolagranollers.com/");
+        }
+        Intent intent = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(intent);
     }
 }
